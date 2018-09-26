@@ -1,0 +1,2 @@
+#!/bin/bash
+ganache-cli -d --mnemonic "myth like bonus scare over problem client lizard pioneer submit female collect" --networkId 70 --accounts 20 --db chain
