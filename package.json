@@ -5,6 +5,9 @@
   "bin": {
     "mybit-network": "./start_chain"
   },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MyBitFoundation/MyBit-Chain.tech.git"
