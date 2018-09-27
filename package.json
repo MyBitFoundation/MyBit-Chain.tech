@@ -6,8 +6,8 @@
     "mybit-network": "./start_chain"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "publish:default": "npx np minor"
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "publish": "echo \"Run npx np minor locally\" && exit 0"
   },
   "repository": {
     "type": "git",
