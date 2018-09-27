@@ -1,0 +1,19 @@
+{
+  "name": "@mybit/chain",
+  "version": "0.1.0",
+  "description": "MyBit Network local blockchain",
+  "bin": {
+    "mybit-network": "./start_chain"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MyBitFoundation/MyBit-Chain.tech.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MyBitFoundation/MyBit-Chain.tech/issues"
+  },
+  "homepage": "https://github.com/MyBitFoundation/MyBit-Chain.tech#readme"
+}
