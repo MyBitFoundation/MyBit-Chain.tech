@@ -1,17 +1,17 @@
 {
     "MyBit": "0x254dffcd3277c0b1660f6d42efbb754edababc2b",
-    "ERC20Burner": "0xddb64fe46a91d46ee29420539fc25fd07c5fea3e",
+    "ERC20Burner": "0xaf5c4c6c7920b4883bc6252e9d9b8fe27187cf68",
     "Database": "0x21a59654176f2689d12e828b77a783072cd26680",
     "ContractManager": "0xd86c8f0327494034f60e25074420bccf560d5610",
     "SingleOwned": "0x7c728214be9a0049e6a86f2137ec61030d0aa964",
     "Pausible": "0x86072cbff48da3c1f01824a6761a03f105bcc697",
-    "AccessHierarchy": "0x22d5c8bdd4346b390014a07109a8f830094d4abf",
+    "AccessHierarchy": "0xdaa71fbba28c946258dd3d5fcc9001401f72270f",
     "PlatformFunds": "0xa586074fa4fe3e546a132a16238abe37951d41fe",
-    "Operators": "0xaf5c4c6c7920b4883bc6252e9d9b8fe27187cf68",
-    "BrokerEscrow": "0xb9bdbaec07751f6d54d19a6b9995708873f3de18",
-    "CrowdsaleETH": "0xdaa71fbba28c946258dd3d5fcc9001401f72270f",
-    "CrowdsaleGeneratorETH": "0xfcced5e997e7fb1d0594518d3ed57245bb8ed17e",
-    "CrowdsaleERC20": "0xceefd27e0542afa926b87d23936c79c276a48277",
-    "CrowdsaleGeneratorERC20": "0x4cfb3f70bf6a80397c2e634e5bdd85bc0bb189ee",
-    "AssetExchange": "0x988b6cfbf3332ff98ffbded665b1f53a61f92612"
+    "Operators": "0xfcced5e997e7fb1d0594518d3ed57245bb8ed17e",
+    "BrokerEscrow": "0x4cfb3f70bf6a80397c2e634e5bdd85bc0bb189ee",
+    "CrowdsaleETH": "0xeea2fc1d255fd28aa15c6c2324ad40b03267f9c5",
+    "CrowdsaleGeneratorETH": "0xceefd27e0542afa926b87d23936c79c276a48277",
+    "CrowdsaleERC20": "0x7231ecd1355a60251ee56bf81f987969fc9bae29",
+    "CrowdsaleGeneratorERC20": "0xf16165f1046f1b3cdb37da25e835b986e696313a",
+    "AssetExchange": "0x2f3efa6bbdc5faf4dc1a600765c7b7829e47be10"
 }
