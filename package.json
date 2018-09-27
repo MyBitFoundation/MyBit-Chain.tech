@@ -1,0 +1,23 @@
+{
+  "name": "@mybit/chain",
+  "version": "0.1.0",
+  "description": "MyBit Network local blockchain",
+  "bin": {
+    "mybit-network": "./start_chain"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "publish": "echo \"Run: npx np minor --no-publish && npm publish --access=public\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MyBitFoundation/MyBit-Chain.tech.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MyBitFoundation/MyBit-Chain.tech/issues"
+  },
+  "homepage": "https://github.com/MyBitFoundation/MyBit-Chain.tech#readme"
+}
