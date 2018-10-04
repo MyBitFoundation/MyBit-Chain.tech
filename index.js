@@ -3,7 +3,7 @@ var path = require('path');
 var appRoot = path.resolve(__dirname);
 
 module.exports = (function (){
-  var addresses = JSON.parse(fs.readFileSync(appRoot + '/addresses.json'));
+  var addresses = require('./addresses.json');
 
   return {
     MyBit: function(){
