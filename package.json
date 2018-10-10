@@ -1,14 +1,15 @@
 {
   "name": "@mybit/chain",
-  "version": "0.1.0",
+  "version": "0.1.4",
   "description": "MyBit Network local blockchain",
   "main": "index.js",
   "bin": {
     "mybit-network": "./start_chain"
   },
   "scripts": {
+    "start": "npx ganache-cli -d --mnemonic 'myth like bonus scare over problem client lizard pioneer submit female collect' --networkId 70 --accounts 20 --db 'chain'",
     "test": "echo \"Error: no test specified\" && exit 0",
-    "publish": "echo \"Run: npx np minor --no-publish && npm publish --access=public\" && exit 0"
+    "publish": "echo \"Run: npm version patch && npm publish --access=public\" && exit 0"
   },
   "repository": {
     "type": "git",
