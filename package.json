@@ -1,6 +1,6 @@
 {
   "name": "@mybit/chain",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "MyBit Network local blockchain",
   "main": "index.js",
   "bin": {
