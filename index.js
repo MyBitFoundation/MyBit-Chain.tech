@@ -22,6 +22,10 @@ module.exports = (function (){
       return addresses.ContractManager;
     },
 
+    API: function(){
+      return addresses.API;
+    },
+
     SingleOwned: function(){
       return addresses.SingleOwned;
     },
