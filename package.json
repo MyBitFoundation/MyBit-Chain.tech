@@ -4,7 +4,7 @@
   "description": "MyBit Network local blockchain",
   "main": "index.js",
   "bin": {
-    "mybit-network": "node chain.js"
+    "mybit-network": "./chain.js"
   },
   "scripts": {
     "start": "node chain.js",
