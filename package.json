@@ -4,10 +4,10 @@
   "description": "MyBit Network local blockchain",
   "main": "index.js",
   "bin": {
-    "mybit-network": "npx ganache-cli -d --networkId 70 --accounts 20 --db 'chain'"
+    "mybit-network": "node chain.js"
   },
   "scripts": {
-    "start": "ganache-cli -d --networkId 70 --accounts 20 --db 'chain'",
+    "start": "node chain.js",
     "test": "echo \"Error: no test specified\" && exit 0",
     "publish": "echo \"Run: npm version patch && npm publish --access=public\" && exit 0"
   },
