@@ -4,7 +4,7 @@
   "description": "MyBit Network local blockchain",
   "main": "index.js",
   "bin": {
-    "mybit-network": "ganache-cli -d --networkId 70 --accounts 20 --db 'chain'"
+    "mybit-network": "npx ganache-cli -d --networkId 70 --accounts 20 --db 'chain'"
   },
   "scripts": {
     "start": "ganache-cli -d --networkId 70 --accounts 20 --db 'chain'",
