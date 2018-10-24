@@ -66,6 +66,10 @@ module.exports = (function (){
       return addresses.CrowdsaleGeneratorERC20;
     },
 
+    AssetGenerator: function(){
+      return addresses.AssetGenerator;
+    },
+
     AssetExchange: function(){
       return addresses.AssetExchange;
     }
