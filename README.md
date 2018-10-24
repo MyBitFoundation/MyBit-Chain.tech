@@ -7,7 +7,7 @@
 # MyBit-Chain.tech
 A pre-deployed Ethereum blockchain containing all the core contract of the MyBit Network.
 
-## Set up
+## Setup
 To start the blockchain, first install dependencies:
 ```bash
 npm install
@@ -54,10 +54,10 @@ All contract addresses are located in [addresses.json](https://github.com/MyBitF
 What follows is the current state of the chain and how each contract interacts with others:
 
 ### [MyBitToken](https://github.com/MyBitFoundation/MyBit-Network.tech/blob/master/contracts/tokens/erc20/BurnableToken.sol)
-This contract represents the [MyB token](https://github.com/MyBitFoundation/MyBit-Network.tech/blob/master/contracts/tokens/erc20/BurnableToken.sol) that MyBit Network runs on. Many functions require MyB tokens to be burnt in order to access their services. Burning of tokens is handled by [ERC20Burner](https://github.com/MyBitFoundation/MyBit-Network.tech/blob/master/contracts/access/ERC20Burner.sol).
+This contract represents the [MyB token](https://github.com/MyBitFoundation/MyBit-Network.tech/blob/master/contracts/tokens/erc20/BurnableToken.sol) that MyBit Network runs on. Many functions require MyB tokens to be burnt in order to access their services. Burning of tokens is handled by [ERC20Burner](https://github.com/MyBitFoundation/MyBit-Network.tech/blob/master/contracts/access/ERC20Burner.sol). All accounts on MyBit-Chain have been issued 100 MyB tokens.
 
 ### [ERC20Burner](https://github.com/MyBitFoundation/MyBit-Network.tech/blob/master/contracts/access/ERC20Burner.sol)
-The ERC20Burner contract works by receiving approval from a user to burn a certain amount of the user's tokens (this amount is set by the user). Any function that requires burning must then call ERC20Burner.burn() before providing any functionality. For security, only approved contracts may access ERC20Burner's burn() function. All burning functions currently charge 250 MyB, although that is subject to change. Here are the functions that currently require MyB burning:
+The ERC20Burner contract works by receiving approval from a user to burn a certain amount of the user's tokens (this amount is set by the user). Any function that requires burning must then call ERC20Burner.burn() before providing any functionality. For security, only approved contracts may access ERC20Burner's burn() function. All burning functions currently charge 0.00000000000000025 MyB. Here are the functions that currently require MyB burning:
 
 - CrowdsaleGeneratorETH.createAssetOrderETH()
 - CrowdsaleETH.buyAssetOrderETH()
