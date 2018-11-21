@@ -3,7 +3,7 @@ var path = require('path');
 var appRoot = path.resolve(__dirname);
 
 module.exports = (function (){
-  var addresses = require('./developmnet-addresses.json');
+  var addresses = require('./development-addresses.json');
 
   return {
     MyBit: function(){
