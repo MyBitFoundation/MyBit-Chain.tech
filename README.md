@@ -1,8 +1,8 @@
-# Welcome to MyBit Chain
+# Welcome to MyBit Network-Chain
 
- [![MyBit Logo](https://files.mybit.io/mybit-icon-28x28.png)](https://mybit.io/) [MyBit Developer Portal](https://developer.mybit.io/portal/) &gt; [Chain](https://developer.mybit.io/chain)
+ [![MyBit Logo](https://files.mybit.io/mybit-icon-28x28.png)](https://mybit.io/) [MyBit Developer Portal](https://developer.mybit.io/portal/) &gt; [Network-Chain](https://developer.mybit.io/chain)
 
-## MyBit Chain
+## MyBit Network-Chain
 
 A pre-deployed Ethereum blockchain containing all the core contract of the MyBit Network.
 
@@ -54,7 +54,7 @@ All MyBit Network contracts have accounts\[0\] as their owner. The platform owne
 
 ### Contracts
 
-All contract addresses are located in [addresses.json](https://github.com/MyBitFoundation/MyBit-Chain.tech/blob/master/addresses.json). The contract addresses are exported for use in [index.js](https://github.com/MyBitFoundation/MyBit-Chain.tech/blob/master/index.js). If you're using the chain in a node.js project, you must simply import this package \([@mybit/chain](https://www.npmjs.com/package/@mybit/chain)\) to get the deployed contract's addresses.
+All contract addresses are located in [addresses.json](https://github.com/MyBitFoundation/MyBit-Chain.tech/blob/master/addresses.json). The contract addresses are exported for use in [index.js](https://github.com/MyBitFoundation/MyBit-Chain.tech/blob/master/index.js). If you're using the chain in a node.js project, you must simply import this package \([@mybit/network-chain](https://www.npmjs.com/package/@mybit/network-chain)\) to get the deployed contract's addresses.
 
 What follows is the current state of the chain and how each contract interacts with others:
 
@@ -87,7 +87,7 @@ The [API](https://github.com/MyBitFoundation/MyBit-Network.tech/blob/master/cont
 
 #### [SingleOwned](https://github.com/MyBitFoundation/MyBit-Network.tech/blob/master/contracts/ownership/SingleOwned.sol)
 
-MyBit-Chain currently only allows a single owner to control the platform. Although, this won't be the case on the MyBit Go platform which will either have a multi-sig or DAO structure. However, for testing the features of the MyBit Network, one owner is perfectly sufficient. The SingleOwned contract simply gives one the ability to change ownership to another account or contract.
+MyBit Network-Chain currently only allows a single owner to control the platform. Although, this won't be the case on the MyBit Go platform which will either have a multi-sig or DAO structure. However, for testing the features of the MyBit Network, one owner is perfectly sufficient. The SingleOwned contract simply gives one the ability to change ownership to another account or contract.
 
 #### [Pausible](https://github.com/MyBitFoundation/MyBit-Network.tech/blob/master/contracts/ownership/Pausible.sol)
 
