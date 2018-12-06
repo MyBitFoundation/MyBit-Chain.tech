@@ -7,7 +7,7 @@ module.exports = (function (){
 
   return {
     MyBit: function(){
-      return addresses.MyBit;
+      return addresses.MyBitToken;
     },
 
     ERC20Burner: function(){
@@ -16,6 +16,10 @@ module.exports = (function (){
 
     Database: function(){
       return addresses.Database;
+    },
+
+    Events: function(){
+      return addresses.Events;
     },
 
     ContractManager: function(){
@@ -38,16 +42,24 @@ module.exports = (function (){
       return addresses.AccessHierarchy;
     },
 
-    PlatformFunds: function(){
-      return addresses.PlatformFunds;
+    Platform: function(){
+      return addresses.Platform;
     },
 
     Operators: function(){
       return addresses.Operators;
     },
 
-    BrokerEscrow: function(){
-      return addresses.BrokerEscrow;
+    AssetGovernance: function(){
+      return addresses.AssetGovernance;
+    },
+
+    AssetManagerEscrow: function(){
+      return addresses.AssetManagerEscrow;
+    },
+
+    AssetManagerFunds: function(){
+      return addresses.AssetManagerFunds;
     },
 
     CrowdsaleETH: function(){
