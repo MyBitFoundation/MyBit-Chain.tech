@@ -38,9 +38,9 @@ module.exports = (function (){
       return addresses.Pausible;
     },
 
-    AccessHierarchy: function(){
+    /*AccessHierarchy: function(){
       return addresses.AccessHierarchy;
-    },
+    },*/
 
     Platform: function(){
       return addresses.Platform;
